@@ -7,6 +7,10 @@ rgs = {
     name     = "rg_dev_raja"
     location = "centralindia"
   }
+   rg3 = {
+    name     = "rg_dev_rajar"
+    location = "centralindia"
+  }
 }
 vnets = {
   Vnet-1 = {
