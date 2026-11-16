@@ -50,22 +50,7 @@ pips = {
 
   }
 }
-nsgs= {
-  nsg-1 = {
-    name                = "frountend-nsg"
-    location            = "centralindia"
-    resource_group_name = "rg_dev_10"
-    dpr                 = "80"
 
-  }
-  nsg-2 = {
-    name                = "backend-nsg"
-    location            = "centralindia"
-    resource_group_name = "rg_dev_10"
-    dpr                 = "80"
-
-  }
-}
 vms = {
 
   vm-1 = {

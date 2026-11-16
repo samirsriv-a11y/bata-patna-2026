@@ -21,10 +21,7 @@ module "public_ip" {
   pips       = var.pips
   depends_on = [module.resource_group, module.subnet]
 }
-module "network_security_group" {
-  source = "../../Child-module/azurerm_network_security_group"
-  nsgs   = var.nsgs
-}
+
 module "virtual_machine" {
   source = "../../Child-module/azurerm_virtual_machine"
   vms    = var.vms
