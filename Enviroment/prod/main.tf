@@ -25,5 +25,5 @@ module "public_ip" {
 module "virtual_machine" {
   source = "../../Child-module/azurerm_virtual_machine"
   vms    = var.vms
-  depends_on = [ module.public_ip,module.subnet,module.network_security_group,module.resource_group ]
+  depends_on = [ module.public_ip,module.subnet,module.resource_group ]
 }
